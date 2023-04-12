@@ -56,7 +56,7 @@ img{
     font-family: "Lexend Deca";
     margin: 4rem 8rem 2rem 2rem;
     text-align: center;
-    background-color: var(--Transparentwhite);
+    color: var(--Verylightgray);
     border-radius: 2rem;
     color: var(--Brightorange);
     padding: 12px;
@@ -65,7 +65,7 @@ img{
     font-family: "Lexend Deca";
     margin: 4rem 8rem 2rem 2rem;
     text-align: center;
-    background-color: var(--Transparentwhite);
+    color: var(--Verylightgray);
     border-radius: 2rem;
     color: var(--Darkcyan);
     padding: 12px;
@@ -74,7 +74,7 @@ img{
     font-family: "Lexend Deca";
     margin: 4rem 8rem 2rem 2rem;
     text-align: center;
-    background-color: var(--Transparentwhite);
+    color: var(--Verylightgray);
     border-radius: 2rem;
     color: var(--Verydarkcyan);
     padding: 12px;
@@ -107,13 +107,13 @@ img{
     }
     .sedan{
         grid-area: sedan;
-        border-radius: 6px 6px 0 0;
+        border-radius: 0.5rem 0.5rem 0 0;
     }
     .suv{
         grid-area: suv;
     }
     .luxury {
         grid-area: luxury;
-        border-radius: 0 0 6px 6px;
+        border-radius: 0 0 0.5rem 0.5rem;
     }
 }
