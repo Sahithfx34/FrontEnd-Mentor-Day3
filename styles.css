@@ -56,7 +56,7 @@ img{
     font-family: "Lexend Deca";
     margin: 4rem 8rem 2rem 2rem;
     text-align: center;
-    color: var(--Verylightgray);
+    background-color: var(--Transparentwhite);
     border-radius: 2rem;
     color: var(--Brightorange);
     padding: 12px;
@@ -65,7 +65,7 @@ img{
     font-family: "Lexend Deca";
     margin: 4rem 8rem 2rem 2rem;
     text-align: center;
-    color: var(--Verylightgray);
+    background-color: var(--Transparentwhite);
     border-radius: 2rem;
     color: var(--Darkcyan);
     padding: 12px;
@@ -74,24 +74,23 @@ img{
     font-family: "Lexend Deca";
     margin: 4rem 8rem 2rem 2rem;
     text-align: center;
-    color: var(--Verylightgray);
+    background-color: var(--Transparentwhite);
     border-radius: 2rem;
     color: var(--Verydarkcyan);
     padding: 12px;
 }
 .sedan .button-s:hover{
     background-color: var(--Brightorange);
+    border: 2px solid white;
+    color: white;
 }
 .suv .button-su:hover{
     background-color: var(--Darkcyan);
+    border: 2px solid white;
+    color: white;
 }
 .luxury .button-l:hover{
     background-color: var(--Verydarkcyan);
-}
-
-.sedan .button-s:hover,
-.suv .button-su:hover,
-.luxury .button-l:hover{
     border: 2px solid white;
     color: white;
 }
@@ -99,21 +98,19 @@ img{
     .container{
         width: 300px;
         border-radius: 6px;
-        /* padding: 0px 0px 0 10px; */
-        /* margin: auto; */
         display: grid;
         grid-template-columns: 340px;
         grid-template-areas: "sedan""suv""luxury";
     }
     .sedan{
         grid-area: sedan;
-        border-radius: 0.5rem 0.5rem 0 0;
+        border-radius: 6px 6px 0 0;
     }
     .suv{
         grid-area: suv;
     }
     .luxury {
         grid-area: luxury;
-        border-radius: 0 0 0.5rem 0.5rem;
+        border-radius: 0 0 6px 6px;
     }
 }
